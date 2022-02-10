@@ -1,0 +1,77 @@
+A blockchain is a shared, distributed and permanent database shared among multiple nodes on a computer network.
+They record data in a way that makes it probabilistically impossible to modify or hack the system.
+
+Blockchains record data as a chain of blocks. Each block contains a group of transactions, which could be transfering assets around the network or 
+updating the information stored on the blockchain.
+
+Blockchain were popularized by the anonymous persion or group "Satoshi Nakamoto, when they released the Bitcoin Network in 2008.
+Bitcoin is a cryptocurrency network and it handles primarily the transfer of the BTC asset acreoss the network,
+without a trusted middleman or authority, while ensuring the network itself is secure and cannot be hacked.
+
+Bitcoin inspired other, more capable, blockchain networks to come out like Ethereum.
+
+
+** State Management:
+
+Genesis state --transactions--> State 1 --transactions--> State 2 ..... State n.
+
+Blockchain start off with a Genesis State when they launch. Bitcoin genesis state happened in "2009" when the public network launched.
+Ethereum's Genesis state happened in "2015", when it launched.
+
+Every transaction on a blockchain modifies the global state that is replicated across all nodes.
+
+Block 1 <----- Block 2 <---- ..... <---- Block N 
+Header         Header                    Header
+Transactions   Transactions              Transactions
+
+Since there are millions of transactions, transactions get grouped together in blocks.
+These blocks are chained together in a cryptographically verifiable way so they are historically traceable.
+The currect state of the network can be recalculated at any time by starting from
+the genesis block and transitioning the state according to each block's information up until now.
+
+
+** Nodes:
+
+A blockchain network is managed autonomously through a peer-to-peer distributed network of computer nodes.
+Each node in the network keeps a copy of the global transcation ledger. 
+So that each node can individually verify and audit transactions happening on the network ensuring no illicit behavior.
+
+A "mining node" is responsible for grouping together new transactions being made on a network into a block.
+And proposing the block to be included onto the global ledger by everyone else.
+Mining is computationally hard, and very important to do securely, so miners whose
+blocks are accepted are given a token reward for their hard work.
+
+The use of a blockchain confirms that each unit value was transferred only once.
+and the ingenious mechanisms put forth by satoshi nakamoto solved the long-standing decentralized double-spending problem.
+
+"Double-Spending" --> Check out this link to learn more (https://en.wikipedia.org/wiki/Double-spending).
+
+
+** Decentralization:
+
+By storing the data in a peer-to-peer network of nodes, the blockchain is a decentralized network.
+This has significant benefits over the traditional approach of storing data in a centralized manner.
+
+Significant examples of problems with centralization:
+1. Data breaches in centralized systems expose lot of data.
+2. Centralized authorities can censor and shut down speech.
+3. Reliance on a central authority means upstream problems affect downstream consumers.
+e.g. AWS doing down means most of the internet goes down with it.
+
+Benefits:
+1. No censorship as there is no single authority or middleman that can censor you.
+2. No downtime as the overall network is running across 1000's of nodes across the globe.
+3. Highly attack resistant making it infeasible to manipulate or destroy data.
+
+Use Cases:
+1. Cryptocurrency.
+2. Smart Contracts.
+3. Decentralized Finance.
+4. Gaming.
+5. Supply Chain Tracking.
+6. Counterfeiting Protection.
+7. Data Privacy.
+8. Decentralized Governance.
+9. Verifiable Ownership of assets.
+and many more...
+

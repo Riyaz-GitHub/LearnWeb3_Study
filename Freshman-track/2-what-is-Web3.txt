@@ -1,0 +1,47 @@
+* Web 1 (1980s - early 2000's):-
+
+The first phrase of the internet was mainly about providing the everyday consumer with online content and information.
+
+As a consumer you could only read information or content online, and not interective yet, Web 1 was incredibly static.
+
+When you think about Web1, think about internet Explorer, Yahoo or Netscape.
+While web1 was read-only, the companies we associate with web1 were built on open protocols, meaning anyone can built on the internet. 
+Same rules were applied to a simple person or organization.
+
+
+* Web2:-
+
+Web2 is the today's version of the internet. Web2 is "read-write" and interactive.
+Under web2, the internet became more usable: web2 was dynamic and users could consume, interact with and create content on the internet themselves.
+
+The internet became largely dominated by the four behemoths we know today as Apple, Amazon, Facebook and Google.
+An explosion in the use of smartphones and most of the internet use was through mobile apps and hardware built by these companies.
+While this meant more people could participate in the intenet, it also meant the intenet was becoming increasingly controlled by the leading digital platforms.
+
+Why is this a problem?
+In the centralized internet we know today, Apple can take a 30% cut on all paid-app downloads and in-app purchases, 
+Twitter and facebook can de-platform the POTUS and the everyday consumer has less privacy, security and control over their online information than ever before.
+
+We also see a lot of data breaches happening alla cross web2 leading to reduced security and privacy for one's personal data.
+When a user's data gets breached its easy for them to brcome a victim of identify theft, personal attacks etc.
+
+
+* Web3:-
+
+Web3, the future internet, is a decentralized internet. The internet is shared online and governed by the collective "we", rather than owned by centralized entities.
+The web3 world is one that has open-source protocols at its foundation. 
+Web3 is about rearchitecting internet services and products so that they benefit people rather than entities.
+
+Web3 enhances the web we know today by making it decentralized, distributed, open, trustless and permissionless.
+1. It's getting built such that everything would happen in a decentralized distributed way giving no central authority access to control the system.
+2. Open --> Open sourced software built by an open and accessible community of developers and executed in full view of the world.
+3. Trustless --> The network itself allows participants to interact publicly or privately without a trusted third party.
+4. Permissionless --> Anyone, both users and suppliers, can participate without authorisation from a governing body.
+
+
+* Readings and references:-
+
+1. https://www.freecodecamp.org/news/what-is-web3/
+2. https://www.xenonstack.com/blog/web3-features-and-challenges
+3. https://ethereum.org/en/developers/docs/web2-vs-web3/
+
