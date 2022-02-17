@@ -1,0 +1,25 @@
+* What is Solidity?
+
+Solidity is an object-oriented, high-level language for implementing smart contracts. It is designed to target Ethereum Virtual Machine (EVM).
+It is statically typed, supports inheritance, libraries and complex user defined types among other features.
+
+
+* Building in Solidity:-
+
+** initializing smart contracts:
+
+//Define the compiler version you would be using
+pragma solidity ^08.10;
+
+//Start by creating a contract named HelloWorld
+contract helloWorld {
+
+}
+
+References:
+https://solidity-by-example.org/
+
+Resources for learning extra:
+1. https://cryptozombies.io/
+2. https://solidity-by-example.org/
+3. https://docs.soliditylang.org/en/v0.8.10/

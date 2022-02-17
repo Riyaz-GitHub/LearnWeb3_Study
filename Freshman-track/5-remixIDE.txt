@@ -1,0 +1,51 @@
+Remix is an open-source, web and desktop IDE for Ethereum development.
+It helps me to write Solidity code directly in the browser and has tools for testing, debugging and deploying my smart contracts to the blockchain.
+
+Link:- https://remix.ethereum.org/
+
+** Navigating Remix:
+
+left-side panel:
+1. File Explorer
+2. Solidity Compiler
+3. Deployer
+4. Extensions
+
+Bottom Panel:
+There's an output panel, which displays output from your compilation, deployments and function calls.
+
+Middle Panel:
+Where I can edit code. It displays the home screen of the IDE, but once we open a file it will become the code editor.
+
+
+** Remix Workflow:
+
+In the file explorer, we can see options to create a new file or directory, upload local files or import files from Github.
+
+To compile our contracts, we shift over the `solidity compiler` tab.
+we choose which `Compiler Version` we want, which smart contract programming language to use and further configuration options.
+
+Note:
+Other programming language listed in Remix, `Yul`, is a lower level language.
+It is meant for intermediate compilation, and is closer to the hardware than solidity is.
+99% of th time you will not be coding in Yul.
+Yul docs link - https://docs.soliditylang.org/en/v0.8.9/yul.html
+
+clicking compile button will compile the contract and make it ready for deployment.
+
+Moving over to the `Deployment` tab,
+There is a `Environment` option and it ships with a `Javascript VM` - which is a simulator of the Ethereum Virtual Machine in the browser.
+This allows for fast testing and debugging of your smart contract, as long as your contract doesn't depend on another contract deployed to a real Ethereum network.
+
+To deploy to actual networks, we will want to change our `Environment` to one of the other options listed there.
+
+Remix creates a set of fake accounts, all loaded up with 100 ETH to test with.
+
+Select the contract under the contract dropdown and click `Deploy` to deploy the contract.
+
+Once the contract is deployed, we can see it under the `Deployed Contracts` section. Where i can call functions on my smart contract.
+
+
+Recommended reading:
+https://remix-ide.readthedocs.io/en/latest/
+
